@@ -14,13 +14,23 @@ public class MostenireTest {
         System.out.println("angajat.getVarsta();");
         angajat.setVarsta(23);
         System.out.println("angajat.getVarsta();");
+        angajat.mananca();
+        angajat.afiseazaDetalii();
+        angajat.afiseazaDetalii("Altex");
+        angajat.afiseazaDetalii("Altex", true);
 
         Sportiv sportiv = new Sportiv("Popi", "Balanel", 25, "Columbia", "Fotbal", true, 10);
         sportiv.infoSportiv();
+        sportiv.mananca();
+        sportiv.cautaSportiv("fotbal", 3);
 
         System.out.println();
 
         Student student = new Student("Cheza", "Bobita", 22, "Mangalia", "UPT", "Management", 2, false);
         student.infoStudent();
+        student.mananca();
+
+        angajat.getSalariu();
+        System.out.println("angajat.getSalariu()");
     }
 }
