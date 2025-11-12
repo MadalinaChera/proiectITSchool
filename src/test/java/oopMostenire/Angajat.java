@@ -1,6 +1,6 @@
 package oopMostenire;
 
-public class Angajat extends Persoana {
+public class Angajat extends Persoana implements AngajatInterface {
 
     private String firma;
     private double salariu;
@@ -71,5 +71,20 @@ public class Angajat extends Persoana {
 
     public double getSalariu() {
         return salariu;
+    }
+
+    @Override
+    public void ajungeLaTimpLaBirou() {
+        System.out.println("Angajatul trebuie sa fie la birou intre 8-9 ");
+    }
+
+    @Override
+    public void munceste() {
+        System.out.println("Angajatul trebuie sa munceasca in intervalul 8-17");
+    }
+
+    @Override
+    public void respectaRegulamentulIntern() {
+        System.out.println("Angajatul respecta regulamentul intern");
     }
 }

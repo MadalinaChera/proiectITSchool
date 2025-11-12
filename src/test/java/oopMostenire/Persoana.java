@@ -40,6 +40,7 @@ public class Persoana {
 //    Polimorfismul Dinamic
 
     public void mananca(){
+
         System.out.println("Persoana mananca atunci cand ii este foame");
     }
 
@@ -50,30 +51,37 @@ public class Persoana {
 //    Setter-ele trebuie sa ne gandim daca face sens sa fie modificat
 
     public String getNume() {
+
         return nume;
     }
 
     public String getPrenume() {
+
         return prenume;
     }
 
     public int getVarsta() {
+
         return varsta;
     }
 
     public String getAdresa() {
+
         return adresa;
     }
 
     public void setNume(String nume) {
+
         this.nume = nume;
     }
 
     public void setVarsta(int varsta) {
+
         this.varsta = varsta;
     }
 
     public void setAdresa(String adresa) {
+
         this.adresa = adresa;
     }
 }
