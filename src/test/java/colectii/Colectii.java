@@ -89,10 +89,10 @@ public class Colectii {
     public void caietRetete(){
         Map<String, List<String>> ingrediente = new HashMap<>();
         List<String> ingredienteSupapui= Arrays.asList("pui","apa","legume");
-        List<String> ingredientepaste= Arrays.asList("paste","usturoi","rosii");
+        List<String> ingredientePaste= Arrays.asList("paste","usturoi","rosii");
 
         ingrediente.put("Supa pui", ingredienteSupapui);
-        ingrediente.put("Paste ", ingredientepaste);
+        ingrediente.put("Paste ", ingredientePaste);
 
         for (String Key: ingrediente.keySet()) {
             System.out.println("Reteta este "+ Key);
